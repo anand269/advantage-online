@@ -57,7 +57,7 @@ public class OurProductsTestCases extends AdvantageBaseClass {
         // Wait for page to load
         wait.until(ExpectedConditions.urlToBe(url));
 
-        // Creating Home page object
+        // Creating Products Home page object
         opf = new OurproductshomePF(driver);
         
         // Using object to interact with Home page and genres in it
